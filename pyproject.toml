@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools >= 61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "evos"
+version = "0.0.1"
+
+authors = [
+    {name = "Nayron Morais", email = "nayronmorais@gmail.com"},
+    {name = "Walmir Caminhas", email = "caminhas@cpdee.ufmg.br"},
+]
+maintainers = [
+  {name = "Nayron Morais", email = "nayronmorais@gmail.com"},
+]
+description = "Evolving methods for online learning of data streams."
+readme = "README.md"
+license = {file = "LICENSE.txt"}
+requires-python = ">=3.9"
+dependencies = [
+	"natsort>=7.1.1",
+	"numpy>=1.26.0",
+	"matplotlib>=3.8.0",
+	"scikit-learn>=1.2.0",
+	"scipy>=1.11.4",
+	"pytest>=7.4.0",
+	"river>=0.13.0",
+	"networkx>=3.3"
+]
+
+[project.urls]
+Repository = "https://github.com/nayronmorais/evos"
+
