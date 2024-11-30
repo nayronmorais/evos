@@ -1,6 +1,7 @@
-<h2> Codes used in the paper "An Evolving Approach to the Similarity-Based Modeling for Online
-Clustering in Non-Stationary Environments" </h2>
+<h2> Evolving Systems </h2>
 
-How to run 
+This repository contains Python implementations of methods utilizing evolving learning schemes.
+
+How to install 
 ------------
-- The only requirement to run the experiments is the installation of the `mlb4science` package located at [https://github.com/nayronmorais/mlb4science](https://github.com/nayronmorais/mlb4science).
+- run the following command in your terminal: `pip install git+https://github.com/nayronmorais/evos`.
